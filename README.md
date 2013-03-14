@@ -32,13 +32,10 @@ rubbernecking), accelerate and drive forward
 
 - [num-cars]: The number of cars with which to initially populate the road. This is capped
 at 55 because going any higher makes it impossible to place all the cars. (default: 50)
-
 - [acc]: Percentage of current speed by which cars increase speed when accelerating
 (default: .10)
-
 - [dec]: Percentage of current speed by which cars decrease speed when accelerating
 (default: .10)
-
 - [min-percent]: Each agent’s minimum driving speed is calculated by taking a percentage
 (min-percent) of the agent’s preferred speed. (default: .60)
 
