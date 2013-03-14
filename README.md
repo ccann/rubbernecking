@@ -36,7 +36,7 @@ at 55 because going any higher makes it impossible to place all the cars. (defau
 - [acc]: Percentage of current speed by which cars increase speed when accelerating
 (default: .10)
 
--[dec]: Percentage of current speed by which cars decrease speed when accelerating
+- [dec]: Percentage of current speed by which cars decrease speed when accelerating
 (default: .10)
 
 - [min-percent]: Each agent’s minimum driving speed is calculated by taking a percentage
@@ -46,10 +46,10 @@ at 55 because going any higher makes it impossible to place all the cars. (defau
 
 The model works by comparing two different conditions (a, b).
 
- - [split-hours]: Each condition runs for split-hours number of hours. (default: 20) Each
+- [split-hours]: Each condition runs for split-hours number of hours. (default: 20) Each
 agent has a 90-degrees cone of vision that originates -75 degrees from the car’s heading
 (90 degrees, driving east). This cone of vision is sensitive to seeing the distractor in
-the median. 
+the median.
 - [vision-distance-a]: How far can the cars see in condition a?
 - [vision-distance-b]: How far can the cars see in condition b? 
 - [prob-boost]: Cars check if the cars in front of them are rubbernecking. If they are,
