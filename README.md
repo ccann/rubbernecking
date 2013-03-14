@@ -1,3 +1,6 @@
+REQUIRES NetLogo 5
+http://ccl.northwestern.edu/netlogo/
+
 ## WHAT IS IT? 
 
 This program attempts to model rubbernecking behavior of vehicles in freeway traffic.
